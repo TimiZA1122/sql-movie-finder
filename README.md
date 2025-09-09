@@ -48,7 +48,7 @@ node server.js
 ```
  Server will run at ‘http://localhost:3000’,
 
-  ## You can play around with API like this, 
+## You can play around with the API like this
   
   * to get all movies:
   
