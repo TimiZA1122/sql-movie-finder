@@ -49,26 +49,27 @@ node server.js
  Server will run at ‘http://localhost:3000’,
 
   ## You can play around with API like this, 
-  * to get all movies:
+  
+  * to get all movies:
   
  ```bash 
-node server.js
+curl https://localhost:3000/movies
 ```
 
-, - To view top rated service studio movies:
+ * To view top rated service studio movies:
 curl http://localhost:3000/movies/top-rated
 
-,-To search for movies by title or by genre:
+* To search for movies by title or by genre:
  curl http://localhost:3000/movies/search? title=Inception&genre=Action
 
- - postman can also be used, or tools like it
+* postman can also be used, or tools like it
 
 ## Tech Used
 
-Node.js
-Express
-SQLite3
-Body-Parser
+* Node.js
+* Express
+* SQLite3
+* Body-Parser
 
 ## Author
 
